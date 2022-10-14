@@ -90,6 +90,6 @@ app.post('/responder',(req, res) => {
     });
 });
 
-app.listen(8080,() => {console.log("App Rodando!");})
+app.listen(3000,() => {console.log("App Rodando! na porta 3000");})
 
 //<% include('./partials/header.ejs') %>;
